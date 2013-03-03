@@ -18,6 +18,7 @@
         <module>postgre</module>
         <module>hsqldb</module>
         <module>sqlserver</module>
+        <module>teradata</module>
     </modules>
     <dependencies>
         <dependency>
