@@ -163,7 +163,7 @@ public class TeradataEnvironment extends AbstractDbEnvironment {
 		if (qualifiers.length==2) {
 			qry += "c.databasename=? and c.tablename=?";
 		} else {
-			qry += "c.databasename=user AND c.tablename=?";
+			qry += "c.databasename=database AND c.tablename=?";
 		}
 	
 		qry+=" order by c.columnid";
@@ -224,7 +224,7 @@ public class TeradataEnvironment extends AbstractDbEnvironment {
 		if (qualifiers.length==2) {
 			qry += "c.databasename=? and c.tablename=?";
 		} else {
-			qry += "c.databasename=user AND c.tablename=?";
+			qry += "c.databasename=database AND c.tablename=?";
 		}
 		qry+=" order by c.columnid ";
 		return readIntoParams(qualifiers, qry);
