@@ -130,7 +130,7 @@
 
 	An Eclipse project can be created by running:
 
-		dbfit-java$ ../gradlew eclipse
+		dbfit-java$ ./gradlew eclipse
 
 	#### Building
 
