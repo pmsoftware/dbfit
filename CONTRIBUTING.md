@@ -128,29 +128,31 @@ An IntelliJ project can be created by running:
 
 ##### Eclipse
 
-An Eclipse project can be created by running (on the host or guest, depending upon from where you'll run Eclipse):
+An Eclipse project can be created using gradle.
+
+1. On the host or guest (depending upon from where you'll run Eclipse) run:
 
     dbfit-java$ ..\\gradlew eclipse  (Windows)
     dbfit-java$ ../gradlew eclipse   (Linux)
 
 (Note that this also populates the gradle cache with the project dependencies)
 
-From Eclipse:
+2. From Eclipse:
 
     File -> Import -> General -> Existing Projects into workspace
 
-Select the Java code root directory. E.g:
+3. Select the Java code root directory. E.g:
 
-    `C:\dbfit\dbfit-java` (Windows)
-    `/dbfit/dbfit-java`   (Linux)
+    C:\dbfit\dbfit-java  (Windows)
+    /dbfit/dbfit-java    (Linux)
 
-Check the `Search for nested projects` box.
+4. Check the `Search for nested projects` box.
 
-Uncheck `dfit-java` (parent) project from the search results.
+5. Uncheck `dbfit-java` (parent) project from the search results.
 
-Click `Finish`.
+6. Click `Finish`.
 
-Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking on each project
+7. Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking on each project
 
     Properties -> Java Compiler
 
