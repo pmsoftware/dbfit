@@ -132,25 +132,6 @@
 
 		dbfit-java$ ../gradlew eclipse
 
-	(Note that this also populates the gradle cache with the project dependencies)
-
-	From Eclipse:
-
-		File -> Import -> General -> Existing Projects into workspace
-
-	Select the Java code root directory. E.g.:
-		`C:\dbfit\dbfit-java` (Windows)
-		`/dbfit/dbfit-java`   (Linux)
-
-	Check the `Search for nested projects` box.
-
-	Uncheck `dfit-java` (parent) project from the search results.
-
-	Click `Finish`.
-
-	Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking
-	on each project -> Properties -> Java Compiler.
-
 	#### Building
 
 	*  Clean, build, test and install to local maven repo
