@@ -132,19 +132,20 @@ An Eclipse project can be created using gradle.
 
 1. On the host or guest (depending upon from where you'll run Eclipse) run:
 
-    dbfit-java$ ..\\gradlew eclipse  (Windows)
-    dbfit-java$ ../gradlew eclipse   (Linux)
+    `dbfit-java$ ..\gradlew eclipse`  (Windows)
+    `dbfit-java$ ../gradlew eclipse`   (Linux)
 
     (Note that this also populates the gradle cache with the project dependencies)
 
 2. From Eclipse:
 
-    File -> Import -> General -> Existing Projects into workspace
+    `File` -> `Import` -> `General` -> `Existing Projects into workspace`
 
 3. Select the Java code root directory. E.g:
 
-    C:\dbfit\dbfit-java  (Windows)
-    /dbfit/dbfit-java    (Linux)
+    `C:\dbfit\dbfit-java`  (Windows)
+
+    `/dbfit/dbfit-java`    (Linux)
 
 4. Check the `Search for nested projects` box.
 
@@ -154,7 +155,7 @@ An Eclipse project can be created using gradle.
 
 7. Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking on each project
 
-    Properties -> Java Compiler
+    `Properties` -> `Java Compiler`
 
 #### Building
 
