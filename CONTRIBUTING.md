@@ -128,7 +128,7 @@
 
 	##### Eclipse
 
-	An Eclipse project can be created by running (on the host or guest, depending upon from where you'll run Eclipse):
+	An Eclipse project can be created by running:
 
 		dbfit-java$ ../gradlew eclipse
 
