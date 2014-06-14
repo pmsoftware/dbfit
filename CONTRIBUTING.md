@@ -130,7 +130,13 @@ An IntelliJ project can be created by running:
 
 An Eclipse project can be created by running (on the host or guest, depending upon from where you'll run Eclipse):
 
-        dbfit-java$ ../gradlew eclipse
+    dbfit-java$ ../gradlew eclipse
+
+(Note that this also populates the gradle cache with the project dependencies)
+
+From Eclipse:
+
+    File -> Import -> General -> Existing Projects into workspace
 
 #### Building
 
