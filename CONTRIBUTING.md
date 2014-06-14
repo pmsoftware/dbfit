@@ -135,7 +135,7 @@ An Eclipse project can be created using gradle.
     dbfit-java$ ..\\gradlew eclipse  (Windows)
     dbfit-java$ ../gradlew eclipse   (Linux)
 
-(Note that this also populates the gradle cache with the project dependencies)
+    (Note that this also populates the gradle cache with the project dependencies)
 
 2. From Eclipse:
 
