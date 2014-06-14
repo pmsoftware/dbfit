@@ -138,18 +138,18 @@
 
 		File -> Import -> General -> Existing Projects into workspace
 
-			Select the Java code root directory. E.g:
-				`C:\dbfit\dbfit-java` (Windows)
-				`/dbfit/dbfit-java`   (Linux)
+	Select the Java code root directory. E.g.:
+		`C:\dbfit\dbfit-java` (Windows)
+		`/dbfit/dbfit-java`   (Linux)
 
-			Check the `Search for nested projects` box.
+	Check the `Search for nested projects` box.
 
-			Uncheck `dfit-java` (parent) project from the search results.
+	Uncheck `dfit-java` (parent) project from the search results.
 
-			Click `Finish`.
+	Click `Finish`.
 
-			Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking
-			on each project -> Properties -> Java Compiler.
+	Ensure all of the DbFit projects are set to use the correct JDK compliance settings by right-clicking
+	on each project -> Properties -> Java Compiler.
 
 	#### Building
 
